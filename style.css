@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html { 
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo mais suave */
+    color: #333;
+}
+
+/* Centralização com Flexbox */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Título e parágrafo */
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+h1 strong {
+    color: #0077cc; /* Destaque */
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    max-width: 600px; /* Limita a largura para melhor leitura */
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    gap: 15px; /* Aumentando o espaçamento entre os botões */
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px; /* Aumentando o padding dos botões */
+    border-radius: 10px;
+    font-size: 1.1rem; /* Aumentando o tamanho da fonte */
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn.instagram {
+    background-color: #E1306C;
+}
+
+.btn.instagram:hover {
+    background-color: #c3225a;
+    transform: scale(1.05); /* Efeito de aumento no hover */
+}
+
+.btn.github {
+    background-color: #333;
+}
+
+.btn.github:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Centralização e estilização da imagem */
+img {
+    border-radius: 12px;
+    width: 250px;
+    height: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaçamento entre o conteúdo e a imagem */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    img {
+        width: 90%;
+    }
+}
