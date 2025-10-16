@@ -2,31 +2,76 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Lucas Mateus</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header></header>
-    <main class="center">
-        <h1>Eleve seu negócio digital a outro nível<br>
-            <strong>com um Front-End de qualidade!</strong>
-        </h1>
-        <p>Olá! Sou Lucas Mateus, desenvolvedor Front-End com especialidade em <strong>HTML, CSS e JAVASCRIPT</strong>.
-            <br>
-            Ajudo pequenos negócios e designers a colocarem em prática boas ideias. <br>
-            Vamos conversar?
-        </p>
-        <div class="buttons">
-            <a href="https://www.linkedin.com/in/lucas-mateus-8bb0a4249/" class="btn linkedin">linkedIn</a>
-            <a href="https://github.com/mateusvvv" class="btn github">GitHub</a>
-        </div>
-        <img src="imagem.jpg" alt="Foto de Lucas na confraternização da sua empresa">
-    </main>
-    <footer></footer>
+  <header class="header">
+    <nav class="navbar">
+      <h2 class="logo">Lucas<span>Mateus</span></h2>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-text">
+      <h1>Eleve seu negócio digital a outro nível <br><strong>com um Front-End de qualidade!</strong></h1>
+      <p>Olá! Sou <strong>Lucas Mateus</strong>, desenvolvedor Front-End especializado em
+        <strong>HTML, CSS e JavaScript</strong>.
+        Ajudo empresas e criadores a transformarem ideias em experiências digitais modernas.
+      </p>
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/lucas-mateus-8bb0a4249/" class="btn linkedin">LinkedIn</a>
+        <a href="https://github.com/mateusvvv" class="btn github">GitHub</a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="imagem.jpg" alt="Foto de Lucas Mateus">
+    </div>
+  </main>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou apaixonado por tecnologia e design. Acredito que um bom Front-End é a ponte entre a ideia e o usuário.
+      Busco sempre entregar soluções rápidas, responsivas e visualmente atraentes, com foco em performance e usabilidade.
+    </p>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Meu Portfólio</h3>
+        <p>Site pessoal desenvolvido com HTML, CSS e animações modernas.</p>
+      </div>
+      <div class="card">
+        <h3>Loja Virtual</h3>
+        <p>E-commerce simples com integração de carrinho e design responsivo.</p>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>Página moderna para captação de leads, totalmente otimizada para mobile.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <p>Vamos conversar sobre seu projeto? Envie uma mensagem no <strong>LinkedIn</strong> ou confira meu trabalho no
+      <strong>GitHub</strong>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lucas Mateus | Desenvolvido com 💙 e muito café ☕</p>
+  </footer>
 </body>
 
 </html>
