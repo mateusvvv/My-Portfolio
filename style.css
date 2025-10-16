@@ -58,12 +58,12 @@ p {
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.btn.instagram {
-    background-color: #E1306C;
+.btn.linkedin {
+    background-color: #307ac1;
 }
 
-.btn.instagram:hover {
-    background-color: #c3225a;
+.btn.linkedin:hover {
+    background-color: #e2dadd;
     transform: scale(1.05); /* Efeito de aumento no hover */
 }
 
